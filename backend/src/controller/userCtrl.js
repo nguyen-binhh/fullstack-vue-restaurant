@@ -21,8 +21,9 @@ let showUser = (req, res) => {
 };
 
 // create account
-let createAccount = (req, res) => {
+let createAccount = async (req, res) => {
   const data = req.body;
+
   insertUser(data, (err, results) => {
     if (err) {
       res.status(404).send(err);
