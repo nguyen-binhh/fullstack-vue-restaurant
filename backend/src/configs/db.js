@@ -7,6 +7,7 @@ const db = mysql.createConnection({
   user: "root",
   password: "",
   database: "database-restaurant",
+  port: 3306,
 });
 
 db.connect((error) => {
@@ -15,17 +16,3 @@ db.connect((error) => {
 });
 
 export default db;
-// get the client
-// import mysql from "mysql2/promise";
-
-// // create the connection to database
-// const db = mysql.createPool({
-//   host: "localhost",
-//   user: "root",
-//   database: "database-restaurant",
-// });
-
-// // simple query
-// // const connection = await mysql.createConnection({host:'localhost', user: 'root', database: 'test'});
-
-// export default db;
