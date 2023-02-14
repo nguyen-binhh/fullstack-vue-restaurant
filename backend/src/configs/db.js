@@ -7,7 +7,6 @@ const db = mysql.createConnection({
   user: "root",
   password: "",
   database: "database-restaurant",
-  port: "3306",
   connectTimeout: 30000,
 });
 
