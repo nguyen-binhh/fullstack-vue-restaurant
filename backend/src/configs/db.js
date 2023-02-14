@@ -8,6 +8,7 @@ const db = mysql.createConnection({
   password: "",
   database: "database-restaurant",
   port: 3306,
+  connectTimeout: 30000,
 });
 
 db.connect((error) => {
