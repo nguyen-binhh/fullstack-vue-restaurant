@@ -7,7 +7,6 @@ const db = mysql.createConnection({
   user: "root",
   password: "",
   database: "database-restaurant",
-  port: "/var/run/mysqld/mysqld.sock",
 });
 
 db.connect((error) => {
