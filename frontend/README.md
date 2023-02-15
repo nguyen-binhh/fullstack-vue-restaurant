@@ -1,3 +1,6 @@
+link-demo: https://vue-mexican-res.netlify.app/
+
+
 # restaurant
 
 This template should help get you started developing with Vue 3 in Vite.
